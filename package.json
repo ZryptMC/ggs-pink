@@ -1,0 +1,13 @@
+{
+  "name": "votifier-relay",
+  "version": "1.0.0",
+  "description": "Relays website votes to a Minecraft server via the Votifier v1 protocol",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
